@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jUxD976Mrbg9g3DATOqTUXi+LuePXrO78WXWhHQMOnnPT/MKOM6rPLfLPT88h/7PhgWGEjKfbibeBKpRBLo0uA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aleif\\OneDrive\\Desktop\\repos\\BankEncapsulation\\BankEncapsulation\\BankEncapsulation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleif\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\aleif\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\aleif\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\aleif\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.30\\microsoft.netcore.app.host.win-x64.6.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}
