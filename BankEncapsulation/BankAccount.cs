@@ -2,18 +2,26 @@ namespace BankEncapsulation;
 
 public class BankAccount
 {
-
+    
+    
+    
+//Methods for class BankAccount
     private double _balance = 0;
 
     public void Deposit(double amount)
     {
-        _balance = amount;
+        _balance += amount;
     }
 
 
     public double GetBalance()
     {
         return _balance;
+    }
+
+    public double Withdraw(double withdraw)
+    {
+       return _balance -= withdraw;
     }
 
 
