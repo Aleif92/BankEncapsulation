@@ -7,7 +7,7 @@
             
             var account = new BankAccount();
             
-            Console.WriteLine("Hello, Welcom to Alex's Banking App!");
+            Console.WriteLine("Hello, Welcome to the Banking App!");
             Console.WriteLine("-------------------------------------");
 
             while (true)
@@ -20,9 +20,9 @@
 
                 int option;
                 
-                if(int.TryParse(Console.ReadLine(), out option))
+                if(!int.TryParse(Console.ReadLine(), out option))
                 {
-                    Console.WriteLine("Invalid input. Please Enter a valid optoin");
+                    Console.WriteLine("Invalid input. Please Enter a valid option");
                     continue;
                 }
 
@@ -33,7 +33,7 @@
                         Console.WriteLine("Enter the amount you want to deposit:");
                         double amount=0;
 
-                        if (double.TryParse(Console.ReadLine(), out amount))
+                        if (!double.TryParse(Console.ReadLine(), out amount))
                         {
                             Console.WriteLine("Invalid amount to deposit");
                             continue;
@@ -48,7 +48,7 @@
                         break;
                     
                     case 3:
-                        Console.WriteLine("Thank you for using Alex's banking app");
+                        Console.WriteLine("Thank you for using our banking app");
                         return;
                     default:
                         Console.WriteLine("Invalid option. Please enter a valid option.");
