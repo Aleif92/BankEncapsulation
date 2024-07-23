@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            
+
             var account = new BankAccount();
 //var currentBalance = account.GetBalance();
 // Console.WriteLine(currentBalance);
@@ -41,16 +41,16 @@
                             Console.WriteLine("Invalid input, Please enter a valid amount.");
                             continue;
                         }
+
                         account.Deposit(amount);
                         Console.WriteLine("Deposit succesful!");
                         break;
-                    case 2: 
+                    case 2:
                         Console.WriteLine($"Current balance: ${account.GetBalance()}");
                         break;
                     case 3:
                         Console.WriteLine("Thank you, Have a nice day!");
                         return;
-            
 
 
 
@@ -62,6 +62,9 @@
 
 
 
+
+                }
+            }
         }
     }
 }
