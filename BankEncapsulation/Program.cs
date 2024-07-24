@@ -24,7 +24,7 @@
                 Console.WriteLine("3. Exit");
 
                 int option;
-                if (int.TryParse(Console.ReadLine(), out option))
+                if (!int.TryParse(Console.ReadLine(), out option))
                 {
                     Console.WriteLine("Invalid input. Please enter a valid option.");
                     continue;
@@ -36,7 +36,7 @@
                         Console.WriteLine("Enter the amount you would like to deposit:");
                         double amount;
 
-                        if (double.TryParse(Console.ReadLine(), out amount))
+                        if (!double.TryParse(Console.ReadLine(), out amount))
                         {
                             Console.WriteLine("Invalid input, Please enter a valid amount.");
                             continue;
